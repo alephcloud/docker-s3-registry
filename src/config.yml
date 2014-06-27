@@ -11,7 +11,7 @@
 common:
     standalone: true
     storage: s3
-    storage_path: _env:STORAGE_PATH
+    storage_path: _env:STORAGE_PATH:/images
     s3_encrypt: false
     s3_secure: true
 
