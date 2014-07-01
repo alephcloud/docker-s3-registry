@@ -27,3 +27,6 @@ common:
         host: 127.0.0.1
         port: 6379
         #password: _env:CACHE_LRU_REDIS_PASSWORD
+
+    search_backend: sqlalchemy
+    sqlalchemy_index_database: "sqlite:////tmp/docker-registry.db"
